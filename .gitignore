@@ -1,0 +1,35 @@
+# Spring Boot
+backend-spring/target/
+backend-spring/out/
+backend-spring/uploads/
+backend-spring/.idea/
+backend-spring/.vscode/
+*.class
+*.jar
+*.war
+*.ear
+
+# Python FastAPI
+ai-service/__pycache__/
+ai-service/venv/
+ai-service/.env
+*.py[cod]
+*$py.class
+
+# Next.js / Node
+frontend-next/node_modules/
+frontend-next/.next/
+frontend-next/out/
+frontend-next/build/
+frontend-next/.env.local
+frontend-next/.env.development.local
+frontend-next/.env.test.local
+frontend-next/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
