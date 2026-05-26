@@ -10,5 +10,6 @@ public interface ApplicationRepository extends JpaRepository<Application, Long> 
     List<Application> findByJobIdOrderByMatchScoreDesc(Long jobId);
     List<Application> findByJobId(Long jobId);
     List<Application> findAllByOrderByMatchScoreDesc();
+    List<Application> findAllByOrderByAppliedAtDesc();
     long countByStatus(String status);
 }

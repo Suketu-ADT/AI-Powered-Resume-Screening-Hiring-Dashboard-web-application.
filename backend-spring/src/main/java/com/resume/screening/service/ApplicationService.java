@@ -59,7 +59,7 @@ public class ApplicationService {
             headers.setContentType(MediaType.APPLICATION_JSON);
 
             Map<String, Object> payload = new HashMap<>();
-            payload.add("resume_text", candidate.getParsedText() != null ? candidate.getParsedText() : "");
+            payload.put("resume_text", candidate.getParsedText() != null ? candidate.getParsedText() : "");
             payload.put("job_description", job.getDescription());
             payload.put("required_skills", requiredSkills);
             payload.put("candidate_skills", candidateSkills);
